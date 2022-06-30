@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoctorC_Page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/QuesbtnColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingStart="35dp"
+            android:text="Patient List"
+            android:textSize="19dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/BlueText" />
+
+        <ImageView
+            android:id="@+id/CDeletebtnID"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/trash"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/DocCLVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@color/BlueText"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/QuesbtnColor"/>
+
+</LinearLayout>

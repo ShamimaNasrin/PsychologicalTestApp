@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/PatientNameETID"
+        android:layout_width="290sp"
+        android:layout_height="45dp"
+        android:hint="Name"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/dialog_btn_design"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/PatientPhoneETID"
+        android:layout_width="290sp"
+        android:layout_height="45dp"
+        android:hint="Phone"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/dialog_btn_design"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/DocADateTVID"
+        android:layout_width="290sp"
+        android:layout_height="45dp"
+        android:hint="Date"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:background="@drawable/dialog_btn_design"/>
+
+
+    <Button
+        android:id="@+id/DocASubmitbtnId"
+        android:layout_width="290sp"
+        android:layout_height="45dp"
+        android:text="OK"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn_bg_design_layout"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

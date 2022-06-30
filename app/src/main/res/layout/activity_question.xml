@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestionActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quesnTV"
+                android:paddingStart="20dp"
+                android:paddingEnd="18dp"
+                android:textColor="@color/BlueText"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/QOneTvID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_One"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="25dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QOnebtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:text="Not at all"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    />
+
+                <Button
+                    android:id="@+id/QOnebtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:text="Several days"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QOnebtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:text="More than half the days"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QOnebtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nearly every day"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/QuestionTvID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Two"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/QTwobtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Not at all"
+                    android:layout_marginTop="20dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QTwobtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QTwobtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QTwobtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Three"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QThreebtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Not at all"
+                    android:layout_marginTop="20dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QThreebtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QThreebtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QThreebtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Four"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QFourbtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Not at all"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QFourbtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QFourbtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QFourbtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Five"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QFivebtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Not at all"
+                    android:layout_marginTop="20dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QFivebtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QFivebtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QFivebtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Six"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QSixbtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Not at all"
+                    android:layout_marginTop="20dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QSixbtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QSixbtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QSixbtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Seven"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QSevenbtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Not at all"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QSevenbtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QSevenbtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QSevenbtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Eight"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QEightbtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Not at all"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QEightbtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QEightbtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QEightbtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Question_Nine"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/BlueText"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"/>
+
+                <Button
+                    android:id="@+id/QNinebtnAID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Not at all"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QNinebtnBID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Several days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QNinebtnCID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="More than half the days"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"/>
+
+                <Button
+                    android:id="@+id/QNinebtnDID"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nearly every day"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/purple_700"
+                    android:background="@drawable/quesn_btn_design_layout"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/ResultShowbtnID"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/btn_bg_design_layout"
+                android:layout_marginTop="20dp"
+                android:text="Result"/>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

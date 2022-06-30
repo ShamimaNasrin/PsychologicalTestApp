@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DepressionDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/QuesbtnColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingStart="35dp"
+            android:text="Depression Severity"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/BlueText" />
+
+        <ImageView
+            android:id="@+id/detailsHomeIVID"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/homeicon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/BlueText"
+                android:text="Mild depression: "
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/BlueText"
+        android:text="@string/Mild_depression"
+        android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/BlueText"
+                android:text="Moderate depression: "
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/BlueText"
+        android:text="@string/Moderate_depression"
+        android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/BlueText"
+                android:text="Moderately severe depression: "
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/BlueText"
+        android:text="@string/Moderately_severe"
+        android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/BlueText"
+                android:text="Severe depression: "
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/BlueText"
+        android:text="@string/Severe_depression"
+        android:textSize="18dp"
+        android:paddingBottom="25dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

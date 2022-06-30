@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/delete_id_et"
+        android:layout_width="290sp"
+        android:layout_height="45dp"
+        android:hint="Input patient number"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_btn_design"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/delete_btn_id"
+        android:text="Delete this patient"
+        android:layout_width="290sp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/btn_bg_design_layout"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

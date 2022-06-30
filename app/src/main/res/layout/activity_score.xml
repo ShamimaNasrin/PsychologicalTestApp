@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScoreActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/QuesbtnColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingStart="40dp"
+            android:text="Result"
+            android:textSize="22dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/BlueText" />
+
+        <ImageView
+            android:id="@+id/ScoreHomeIVID"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/homeicon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="According to your response your depression level.."
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/BlueText"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"/>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="13dp"
+         android:layout_gravity="center"
+         android:padding="10dp"
+         android:paddingStart="15dp"
+         android:paddingEnd="15dp"
+         android:gravity="center"
+         android:background="@drawable/quesn_btn_design_layout">
+
+         <TextView
+             android:id="@+id/SeverityLevelTVID"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:hint="Depression Severity"
+             android:textStyle="bold"
+             android:textColor="@color/purple_200"
+             android:textSize="18dp" />
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_marginLeft="15dp">
+
+         <ImageView
+             android:id="@+id/saveScorIVID"
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:src="@drawable/savedata"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="save"
+                 android:textStyle="bold"
+                 android:textColor="@color/purple_200"
+                 android:textSize="12dp" />
+
+         </LinearLayout>
+
+
+     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/previous_contvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Previous condition:"
+            android:textColor="@color/BlueText"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/ScoreShowTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15sp"
+            android:textColor="@color/BlueText"
+            android:hint="No previous history"
+            android:textColorHint="@color/BlueText"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/depression"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Depression_Name"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:textColor="@color/BlueText"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <Button
+            android:id="@+id/Dep_detailsbtnID"
+            android:layout_width="225dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:text="Depression severity"
+            android:textColor="@color/BlueText"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/score_btn_design"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp"
+        android:id="@+id/DocListlayoutID">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/doclist"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DoctorList"
+        android:textSize="15dp"
+        android:textColor="@color/BlueText"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"/>
+
+    <Button
+        android:id="@+id/DocListbtnID"
+        android:layout_width="225dp"
+        android:layout_height="42dp"
+        android:text="Doctor List"
+        android:textColor="@color/BlueText"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@drawable/score_btn_design"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NOTE"
+            android:textSize="15dp"
+            android:textColor="@color/BlueText"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="23dp"
+            android:layout_alignParentBottom="true"
+           />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

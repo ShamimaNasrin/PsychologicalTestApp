@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#08008F</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#001B48</color>
+    <color name="teal_200">#3F51B5</color>
+    <color name="teal_700">#02457A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="BlueText">#08008F</color>
+    <color name="QuesbtnColor">#D6E8EE</color>
+
+</resources>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThanksActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingStart="35dp"
+        android:paddingEnd="30dp"
+        android:text="Thanks and Credits"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@color/QuesbtnColor"
+        android:gravity="center_vertical"
+        android:textColor="@color/BlueText"
+        android:layout_marginBottom="70dp"/>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/woman"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/BlueText"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tahmina Akter"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="25sp"
+                    android:textColor="@color/BlueText"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc in CSE"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="@color/BlueText"
+                    android:textSize="17sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cell: 017******"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="@color/BlueText"
+                    android:textSize="17sp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/woman"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/BlueText"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Purnata Mojumder"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="25sp"
+                    android:textColor="@color/BlueText"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc in CSE"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="@color/BlueText"
+                    android:textSize="17sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cell: 018******"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="@color/BlueText"
+                    android:textSize="17sp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/woman"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/BlueText"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juthy Akter"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="25sp"
+                    android:textColor="@color/BlueText"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc in CSE"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="@color/BlueText"
+                    android:textSize="17sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cell: 018*******"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="@color/BlueText"
+                    android:textSize="17sp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

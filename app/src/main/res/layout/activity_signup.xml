@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_style_layout"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/backIVID"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/SignupTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="30dp"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create your account"
+        android:textSize="16dp"
+        android:layout_below="@+id/SignupTVID"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="45dp"/>
+
+    <EditText
+        android:id="@+id/NameETID"
+        android:layout_width="290sp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/SignupTVID"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/AgeETID"
+        android:layout_width="290sp"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/NameETID"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/PhoneETID"
+        android:layout_width="290sp"
+        android:layout_height="45sp"
+        android:hint="Phone"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/AgeETID"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="290sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/PhoneETID"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/LlayoutID">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textSize="17dp"
+            android:textColor="@color/BlueText"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"/>
+
+        <RadioGroup
+            android:id="@+id/RBgroupID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="12dp">
+
+            <RadioButton
+                android:id="@+id/FemaleRBID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="16dp"
+                android:textColor="@color/BlueText"
+                android:backgroundTint="@color/BlueText"
+                android:layout_gravity="center_vertical"/>
+
+            <RadioButton
+                android:id="@+id/MaleRBID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Male"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/BlueText"
+                android:backgroundTint="@color/BlueText"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/UsernameETID"
+        android:layout_width="290sp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/LlayoutID"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/PasswordETID"
+        android:layout_width="290sp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/UsernameETID"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/ConfirmPassETID"
+        android:layout_width="290sp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm password"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/PasswordETID"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/SubmitbtnID"
+        android:layout_width="290sp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Sign up"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg_design_layout"
+        android:layout_below="@+id/ConfirmPassETID"
+        />
+
+
+</RelativeLayout>

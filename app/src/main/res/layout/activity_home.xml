@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@color/QuesbtnColor"
+    android:id="@+id/drawerlayoutID">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ToolbarID"
+            app:title="Psychological test"
+            app:titleTextColor="@color/BlueText"
+            android:background="@color/QuesbtnColor"
+            android:layout_alignParentTop="true"/>
+
+        <ImageView
+            android:id="@+id/hometopIVID"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/tophomepic"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ToolbarID"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/hometopIVID"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/homepage_design_layout"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/HomeTvOne"
+            android:paddingStart="20dp"
+            android:paddingEnd="18dp"
+            android:textColor="@color/BlueText"
+            android:layout_marginTop="25dp"
+            android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HomeTvTwo"
+        android:paddingStart="20dp"
+        android:paddingEnd="18dp"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="70dp"
+        android:textSize="17dp"/>
+
+    <Button
+        android:id="@+id/Testbtn_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Test"
+        android:textColor="#fff"
+        android:textSize="18dp"
+       android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/home_btn_design_layout"/>
+
+     </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/NavigationviewID"
+        app:menu="@menu/menu_item"
+        app:headerLayout="@layout/nav_header"
+        android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Psychological test</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!-- About activity -->
+    <string name="About_noteOne">Having a low mood or feeling on edge are common experiences for us all. When these moods persist, it may be that you are experiencing depression or anxiety, or both. These self tests ask some important questions that can help you take stock of where you are at so you can make a plan for feeling better sooner.</string>
+
+    <!-- FAQ activity -->
+    <string name="ans_one">Psychology test is a depression testing app where you can primarily test your mental health.</string>
+    <string name="ans_two">At first you have to login or sign up. After that click TEST on the home page and answer the questions then click RESULT to see the result.</string>
+    <string name="ans_three">After the test if your condition is not in minimal depression then there will be a doctor list. By clicking DOCTOR LIST you will be able to see the available doctors.</string>
+    <string name="ans_four">From the doctor list there will be two ways to contact with doctor. You can either call for appointment by clicking CALL or you can direct create appointment by clicking APPOINTMENT. To create appointment provide your name, phone number and the appointment date and click SUBMIT </string>
+
+    <!-- Home activity -->
+    <string name="HomeTvOne">The brain is part of your body just like your legs or your heart. Mental illnesses can change the way we think, feel and act. Dealing with the tough times can be hard but you’re not alone. Get some suggestions or support on how to take care of yourself and others as a first step.
+</string>
+
+    <string name="HomeTvTwo">Take a mental health test. This test will help you figure out what is going on with your mental health condition.</string>
+
+
+    <!-- Question activity -->
+    <string name="quesnTV">Over the last 2 weeks, how often have you been bothered by any of the following problems?</string>
+    <string name="Question_One">Q1: Little interest or pleasure in doing things</string>
+    <string name="Question_Two">Q2: Feeling down, depressed, or hopeless</string>
+    <string name="Question_Three">Q3: Trouble falling or staying asleep, or sleeping too much</string>
+    <string name="Question_Four">Q4: Feeling tired or having little energy</string>
+    <string name="Question_Five">Q5: Poor appetite or overeating</string>
+    <string name="Question_Six">Q6: Feeling bad about yourself or that you are a failure or have let yourself or your family down</string>
+    <string name="Question_Seven">Q7: Trouble concentrating on things, such as reading the newspaper or watching television</string>
+    <string name="Question_Eight">Q8: Moving or speaking so slowly that other people could have noticed. Or the opposite being so fidgety or restless that you have been moving around a lot more than usual</string>
+    <string name="Question_Nine">Q9: Thoughts that you would be better off dead, or of hurting yourself</string>
+
+
+    <!-- Score activity -->
+    <string name="DoctorList">If you think you need to talk about your test with the specialist you can check out our provided doctorlist.</string>
+    <string name="Depression_Name">learn about the depression severity:</string>
+    <string name="NOTE">NOTE: Since the questionnaire relies on patient self-report, all responses should be verified by the clinician, and a definitive diagnosis is made on clinical grounds taking into account how well the patient understood the questionnaire, as well as other relevant information from the patient.</string>
+
+
+    <!-- Depression details activity -->
+    <string name="Mild_depression">With mild depression, sometimes just taking a little time for yourself can restore Your energy and lift your spirits. Other times, you may need the support of a health care professional. See below for some resources that can help.</string>
+
+    <string name="Moderate_depression">Moderate depression is a mood disorder characterized by feelings of sadness, loss, or anger and decreased interest or pleasure in most activities. Explore the levels of severity, symptoms, and treatment of moderate depression.</string>
+
+    <string name="Severe_depression">Severe depression is common and treatable — and we can help you find support. With professional treatment, including therapy, medication, or a combination of both, you may start to feel better and enjoy life more.</string>
+
+    <string name="Moderately_severe">Moderately severe depression is very common and very treatable. While there are things you can do to help yourself, you may also benefit from getting professional mental health treatment, including therapy, medication, or a combination of both.</string>
+
+
+</resources>

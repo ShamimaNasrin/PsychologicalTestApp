@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_style_layout"
+    tools:context=".DocLoginActivity">
+
+    <ImageView
+        android:id="@+id/DocbackIVID"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/DocWelcomeTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME BACK!"
+        android:textSize="30dp"
+        android:textColor="@color/BlueText"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="45dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DocWelcomeTVID"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="3dp"
+        android:text="Login to continue"
+        android:textColor="@color/BlueText"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/DocusernameET"
+        android:layout_width="285sp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="17dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/DocWelcomeTVID"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/DocpasswordET"
+        android:layout_width="285sp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="20sp"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/DocusernameET"
+        android:inputType="textPassword"
+        android:textSize="17dp"
+        android:backgroundTint="@color/BlueText"
+        android:textColor="@color/BlueText"
+        android:textColorHint="@color/BlueText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/DocloginButtonID"
+        android:layout_width="285sp"
+        android:layout_height="45dp"
+        android:text="Log In"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/DocpasswordET"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg_design_layout" />
+
+
+
+</RelativeLayout>
